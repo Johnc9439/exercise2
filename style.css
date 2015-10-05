@@ -5,13 +5,10 @@ dy { margin: 0;
       font-family: "source-sans-pro", sans-serif;
         -webkit-font-smoothing: subpixel-antialiased;
    }
-* { box-sizing: border-box;
-*     -moz-box-sizing: border-box;
-*     }
-*
-*/*
-Primary Rules
-*/
+   { box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     }
+
 h1 { font-weight: 300;
   font-style:italic;
   margin: 5px 0 0;
@@ -94,9 +91,6 @@ ul.skills li{
 ul.skills li:last-child{
   margin:0;
 }
-/*
-*  Float Rules
-*  */
 .row:before, .row:after { content: "";
   display: table;
 }
@@ -104,9 +98,6 @@ ul.skills li:last-child{
 .col { float: left }
 .col-right { float: right }
 
-/*
-*  Page Rules
-*  */
 .page { width: 1000px;
   min-height: 29.7cm;
   margin: 1cm auto;
